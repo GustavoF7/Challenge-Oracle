@@ -1,0 +1,66 @@
+
+@media only screen and (max-width: 768px) {
+
+    #sem-texto {
+        display: none;
+    }
+
+    .container {
+        margin: 0;
+        position: absolute;
+        min-height: 1174px;
+        min-width: 680px;
+        left: 40px;
+        top: 40px;
+    }
+
+    #caixa {
+        width: 680px;
+        height: 133px;
+        left: 44px;
+        top: 1001px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    #caixa-after {
+        width: 680px;
+        height: 343px;
+        left: 44px;
+        top: 1001px;
+        opacity: 0;
+        transition: 0.5s;
+        z-index: 2;
+    }
+
+    #caixa-after #text textarea {
+        word-wrap: break-word;
+        width: 616px;
+        max-height: 160px;
+    }
+
+    #caixa #texto {
+        position: absolute;
+        top: 16.5px;
+        left: 0px;
+        width: 680px;
+        height: 100px;
+    }
+
+    #requisito {
+        position: absolute;
+        top: 836px;
+        left: 44px;
+    }
+
+    .botoes {
+        top: 870px;
+        left: 44px;
+    }
+
+    #caixa-after .copiar {
+        width: 616px;
+        height: 67px;
+        left: 32px;
+        top: 248px;
+    }
+}

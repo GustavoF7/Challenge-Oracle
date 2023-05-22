@@ -1,0 +1,212 @@
+/* CONFIGS GERAIS */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    position: absolute;
+    width: 95%;
+    left: 40px;
+    min-width: 1380px;
+    margin: 40px auto;
+}
+
+/* LOGO */
+
+#logo {
+    top: 40px;
+}
+
+/* CAIXA DE EXIBIÇÃO */
+
+#caixa {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    right: 40px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0,0.08);
+    border-radius: 32px;
+    background: white;
+    z-index: 1;
+}
+
+#caixa #sem-texto {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 243px;
+}
+
+#caixa #texto {
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    top: 61%;
+    left: 50px;
+    text-align: center;
+    color: #343A40;
+}
+#caixa #texto h1 {
+    top: 35.6%;
+    left: 8%;
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+#caixa #texto p {
+    top: 70%;
+    left: 3%;
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#caixa-after {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    right: 40px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0,0.08);
+    border-radius: 32px;
+    background: white;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#caixa-after #text textarea {
+    position: absolute;
+    padding: 32px;
+    word-wrap: break-word;
+    width: 336px;
+    height: 781px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    color: #495057;
+    border: none;
+    background: none;
+    resize: none;
+    
+}
+
+/* CAMPO DE DIGITAR TEXTO */
+
+.digite-texto textarea {
+    position: absolute;
+    width: 680px;
+    height: 480px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    left: 17%;
+    top: 168px;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+    resize: none;
+}
+
+.digite-texto textarea::placeholder {
+    color: #0A3871;
+}
+
+.digite-texto textarea:focus{
+    box-shadow: 0;
+    border: none;
+    background: none;
+    outline: 0;
+}
+
+.cor textarea::placeholder {
+    color: #0A3871;
+}
+
+/* REQUISITOS PARA ESCREVER O TEXTO */
+
+#requisito {
+    position: absolute;
+    display: flex;
+    height: 16px;
+    left: 17%;
+    top: 850px;
+    vertical-align: middle;
+}
+
+#requisito p {
+    margin-left: 8px;
+}
+
+/* BOTÕES ENCRIPTOGRAFAR E DESINCRIPTOGRAFAR */
+
+.botoes {
+    position: absolute;
+    display: flex;
+    align-content: space-between;
+    top: 888px;
+    height: 67px;
+    left: 17%;
+}
+
+.crip, .descrip {
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 16px;
+    width: 328px;
+    height: 67px;
+}
+
+.botoes .crip {
+    margin-right: 12px;
+    background: #0A3871;
+    border: none;
+    color: #D8DFE8;
+    
+}
+
+.botoes .descrip {
+    margin-left: 12px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+input[type=button].crip:hover {
+    background: #072B61;
+    cursor: pointer;
+}
+
+input[type=button].descrip:hover {
+    background: #EFF1FA;
+    cursor: pointer;
+}
+
+/* BOTÃO COPIAR */
+
+#caixa-after .copiar {
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 16px;
+    width: 328px;
+    height: 67px;
+    position: absolute;
+    left: 32px;
+    top: 845px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}

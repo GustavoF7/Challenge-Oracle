@@ -1,0 +1,74 @@
+
+@media only screen and (max-width: 391px) {
+
+    #sem-texto {
+        display: none;
+    }
+    .container {
+        margin: 0;
+        position: absolute;
+        min-width: 305px;
+        left: 16px;
+        top: 16px;
+    }
+    .digite-texto textarea {
+        left: 16px;
+        top: 126px;
+        width: 352px;
+        height: 240px;
+    }
+    #requisito {
+        position: absolute;
+        top: 451px;
+        left: 16px;
+    }
+    .botoes {
+        display: inline;
+        width: 328px;
+        height: 158px;
+        top: 490px;
+        left: 16px;
+    }
+    .botoes .descrip{
+        margin-left: 0;
+        
+    }
+    .botoes .crip {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    #caixa {
+        width: 327px;
+        height: 186px;
+        left: 16px;
+        top: 707px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+    #caixa #texto {
+        position: absolute;
+        top: 18px;
+        left: 8.5px;
+        width: 310px;
+        height: 150px;
+    }
+    #caixa-after {
+        width: 327px;
+        height: 380px;
+        left: 16px;
+        top: 707px;
+        opacity: 0;
+        transition: 0.5s;
+        z-index: 2;
+    }
+    #caixa-after #text textarea {
+        word-wrap: break-word;
+        width: 270px;
+        max-height: 200px;
+    }
+    #caixa-after .copiar {
+        width: 311px;
+        height: 67px;
+        left: 8.5px;
+        top: 300px;
+    }
+}
